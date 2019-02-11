@@ -5,6 +5,7 @@ all:
 	[ -f ~/.gitconfig ] || ln -s $(PWD)/gitconfig ~/.gitconfig
 	[ -f ~/.gitignore ] || ln -s $(PWD)/gitignore ~/.gitignore
 	[ -f ~/.zshrc ] || ln -s $(PWD)/zshrc ~/.zshrc
+	[ -f ~/.tmux.conf ] || ln -s $(PWD)/tmuxconf ~/.tmux.conf
 
 	# don't show last login message
 	touch ~/.hushlogin
@@ -14,5 +15,6 @@ clean:
 	rm -f ~/.gitconfig
 	rm -f ~/.gitignore
 	rm -f ~/.zshrc
+	rm -f ~/.tmux.conf
 
 .PHONY: all
