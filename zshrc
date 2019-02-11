@@ -26,7 +26,8 @@ alias o="open"
 alias oo="open ."
 
 alias d='git diff' 
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
 
 case `uname` in
   Darwin)
