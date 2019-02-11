@@ -1,0 +1,42 @@
+[user]
+	name = Tomasz Radziejewski
+	email = tomasz@radziejewski.pl
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+	autocrlf = false
+	safecrlf = true
+	pager = diff-so-fancy | less --tabs=1,5 -R
+[alias]
+	s = status
+	ch = checkout
+	p = pull
+	m = merge
+	d = diff --color-words
+	bl = branch --list -a
+	c = diff --name-only --diff-filter=U
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	git = !exec git
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "status"]
+	added = green
+	changed = yellow
+	untracked = cyan
+[rebase]
+	autostash = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[github]
+	user = tradziej
+[push]
+	default = current
+[mergetool]
+  keepBackup = true
