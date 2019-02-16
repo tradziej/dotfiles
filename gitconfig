@@ -9,6 +9,7 @@
 	pager = diff-so-fancy | less --tabs=1,5 -R
 [alias]
 	s = status
+	d = diff
 	ch = checkout
 	p = pull
 	m = merge

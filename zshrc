@@ -25,9 +25,9 @@ alias p="cd ~/Projects"
 alias o="open"
 alias oo="open ."
 
-alias d='git diff' 
 alias vi='nvim'
 alias vim='nvim'
+alias g='git'
 
 case `uname` in
   Darwin)
