@@ -15,3 +15,5 @@ brew bundle
 ```
 make
 ```
+
+Mostly stolen from [Fatih](https://github.com/fatih). Thank you.
