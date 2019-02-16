@@ -243,3 +243,10 @@ exit() {
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# ===================
+#    THIRD PARTY
+# ===================
+# brew install jump
+# https://github.com/gsamokovarov/jump
+eval "$(jump shell)"
