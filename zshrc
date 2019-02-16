@@ -28,6 +28,7 @@ alias oo="open ."
 alias vi='nvim'
 alias vim='nvim'
 alias g='git'
+alias t='tig status'
 
 case `uname` in
   Darwin)
