@@ -27,3 +27,6 @@
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+
+# direnv
+.envrc
