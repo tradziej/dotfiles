@@ -15,6 +15,7 @@ all:
 
 clean:
 	rm -f ~/.vimrc 
+	rm -f ~/.config/nvim/init.vim
 	rm -f ~/.config/alacritty/alacritty.yml
 	rm -f ~/.gitconfig
 	rm -f ~/.gitignore
