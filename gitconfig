@@ -16,6 +16,7 @@
 	p = pull
 	m = merge
 	d = diff --color-words
+	fa = fetch --all
 	bl = branch --list -a
 	c = diff --name-only --diff-filter=U
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
