@@ -10,6 +10,7 @@
 [alias]
 	s = status
 	d = diff
+	dc = diff --cached
 	ch = checkout
 	p = pull
 	m = merge
