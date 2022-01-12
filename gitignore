@@ -30,3 +30,5 @@ Desktop.ini
 
 # direnv
 .envrc
+
+.tool-versions
